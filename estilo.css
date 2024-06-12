@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(249, 249, 249); /* Color de fondo de todo el cuerpo de la página */
+}
+h1 {
+    font-size: 3.75em;
+}
+h2 {
+    font-size: 1.875em;
+}
+h3 {
+    font-size: 1.4375em;
+}
+li {
+    font-size: 1.125em;
+}
+p {
+    font-size: 1.125em;
+    text-align: justify;
+}
+
+#AcercaDe {
+    background-color: rgb(83, 83, 85);
+    color: white;
+}
+
+#AcercaDe h2 {
+    color: white;
+}
+
+#AcercaDe footer {
+    color: white;
+}
+
+/* Estilo del menú */
+nav {
+    ul {
+        list-style-type: none; /* Le quita los puntos */
+        padding: 0; /* Pone el menú más a la izquierda */
+        background-color: #D5C1BD;
+        overflow: hidden; /* Le da el fondo */
+    }
+
+    li { 
+        float: left; /* Alínea el menú a la izquierda */
+    }
+
+    li a {
+        display: block; /* Pone el menú en forma de bloque */
+        color: #333; /* Color de letra */
+        padding: 0.875em 1em; /* Espaciado entre las partes del menú */
+        text-decoration: none; /* Quita el subrayado */
+    }
+
+    li a:hover { /* Le da el sombreado cuando se pasa el mouse */
+        background-color: #ddd; 
+    }
+}
